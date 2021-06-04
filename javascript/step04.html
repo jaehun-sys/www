@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string</title>
+    <script>
+        let myName="이재훈";
+        let yourName='김재훈'; //홑따옴표도 가능
+        let msg = myName + yourName; //문자열을 쓰는 가장 기본적인 방법
+        console.log(msg);
+
+        //es6에서 추가된 문자열 템플릿
+        let station = "을지로 입구역";
+        let ourName = `이번 정차역은 ${station}입니다.`; //아래와 동일
+        let ourName2 = '이번 정차역은 ' + station + '입니다.';
+        console.log(ourName);
+        console.log(ourName2);
+
+        let a=10;
+        let b="10";
+        console.log(a==b);//true
+        console.log(a===b);//false
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
